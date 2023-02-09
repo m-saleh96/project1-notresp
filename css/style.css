@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+.main{
+    background-color: rgb(204, 204, 204);
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.top{
+    background-image: url("../images/bg1.jpg");
+    background-size: cover;
+    height: 145px;
+    width: 100%;
+}
+div .top>ul li{
+    display: inline-block;
+    list-style-type: none;
+    cursor: pointer;
+}
+ul{
+    float: right;
+    margin: 25px;   
+}
+.clear{
+    clear: both;
+}
+.nave{
+    background-color: black;
+    margin-top: 1px;
+}
+ol>li{
+    display: inline-block;
+    list-style-type: none;
+    font-size: small;
+}
+.slide{
+    margin: 10px;
+}
+div .slide>img{
+    width: 100%;
+}
+.content{
+    margin: 15px;
+    border-bottom:1px solid rgb(184, 182, 182);
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+.left{
+    float: left;
+    width: 75%;   
+}
+
+.right{
+    float: right;
+    width: 25%;  
+}
+h2{
+    color: rgb(0, 162, 255);
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    margin-right: 35px;
+    border-bottom:1px solid rgb(184, 182, 182);
+    font:28px  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.right>h2{
+    margin-right: 5px;
+}
+p{
+    text-align: justify;
+    padding-right: 40px;
+
+}
+div .left>ul{
+    padding-left: 30px;
+}
+.cars>.left{
+    width: 50%;
+    padding-left: 10px;
+}
+.cars>.right{
+    width: 50%;
+    padding-bottom: 30px;
+}
+.cars img{
+    outline: solid 3px white;
+    outline-offset: 5px;
+}
+.main>p{
+    font-size: smaller;
+    text-align: center;
+}
+h3{
+    font-size: 12px;
+    color: rgb(214, 87, 14);
+    font:13px  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h5{
+    font-size: 12px;
+    color: rgb(0, 162, 255);
+    font:13px  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.right p{
+    font-size: 14px;
+    padding-right: 15px;
+    padding-bottom: 35px;
+}
+a{
+    color: white;
+    display: inline-block;
+    padding: 15px 10px;
+}
+a:hover{
+    background-color: rgb(0, 162, 255);
+    cursor: pointer;
+}
